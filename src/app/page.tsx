@@ -2,9 +2,12 @@ import React from "react";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import EditorsPick from "./components/Editors-Pick";
-import BestsellerProducts from "./components/Bestseller";
-import About from "./components/About";
-import Contact from "./components/Contact";
+import Bestseller from "./components/Bestseller";
+import GreenDiv from "./components/GreenDiv";
+import WhiteDiv from "./components/WhiteDiv"; 
+import FeaturedPosts from "./components/Features-Post";
+import Footer from "./components/Footer";
+
 export default function Home() {
   return (
     <div>
@@ -12,9 +15,12 @@ export default function Home() {
       <Navbar />
       <Hero />
      <EditorsPick />
-     <BestsellerProducts />
-     <About />
-     <Contact />
+     <Bestseller />
+     <GreenDiv />
+     <WhiteDiv />
+     <FeaturedPosts />
+     <Footer />
+     
     </div>
   );
 }
